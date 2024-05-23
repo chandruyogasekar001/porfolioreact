@@ -1,0 +1,17 @@
+.custom-button {
+    /* Default button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: rgba(154, 59, 42, 0.567); /* Button color on hover */
+  }
+  
+  .custom-button:active {
+    border-color: orange;/* Button color when active (clicked) */
+  }
+  

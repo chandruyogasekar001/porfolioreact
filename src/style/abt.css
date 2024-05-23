@@ -1,0 +1,9 @@
+.containera{
+    flex-wrap: nowrap;
+   display: flex;
+   overflow-x: hidden;
+   height: 85vh;
+    width: 85vw,
+    
+   
+}

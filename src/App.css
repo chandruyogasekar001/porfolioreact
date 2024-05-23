@@ -12,6 +12,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.clicked {
+  background-color: green;
+}
+
+.unclicked {
+  background-color: blue;
+}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +42,254 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.head{
+  height: 5dvh;
+  width: 100dvw;
+  background-color: #24292e;
+  display: flex;
+  align-items: center;
+}
+.foot{
+  position: fixed; /* Makes the element fixed */
+  bottom: 0; /* Positions it at the top of the viewport */
+  left: 0;
+  background-color: #007efb;
+  width: 100dvw;
+  height: 4dvh;
+}
+span{
+  color: white;
+ padding-left: 1%;
+}
+@media screen and (max-width: 768px) {
+.spn {
+display: none; 
+}
+}
+.cont{
+  height: 92dvh;
+  width: 100dvw;
+  display:flex;
+}
+.nav{
+  height: 99vh;
+  width: 57px;
+  background-color: #373a3e;
+}
+.file{
+  height: 99vh;
+  width: 200px;
+  background-color: #24292e;
+}
+.fly{
+  height: 99vh;
+  width: 200px;
+}
+p{
+  
+  color: #fff1f1;
+}
+.tab{
+  padding: 10px;
+  
+  background-color: #373a3e;
+}
+.l{
+  position: absolute;
+  bottom: 3vh; 
+  left: 0px;
+}
+.ll{
+  position: absolute;
+  bottom: 10vh;
+  left: 0px;
+}
+.topic{
+  position: absolute;
+  top: 1vh; 
+  left: 35vw;
+}
+.y{
+  background-color: #24292e;
+}
+.tab.clicked {
+  border-left: 4px solid #f46200;
+  
+}
+.y.clicked{
+  border-left: none;
+  border-top:  4px solid #f46200;
+ 
+  background-color: #373a3e;
+}
+.clickable-text {
+cursor: pointer;
+color: white;
+padding-left: 5px;
+}
+
+/* Style for the additional text blocks */
+.additional-text {
+display: block;
+padding-left: 10px;
+
+
+}
+
+/* Style for the additional text blocks when displayed */
+.additional-text.active {
+display: none;
+padding-left: 10px;
+
+}
+p{
+margin: 0px;
+}
+.tab-tab{
+  height: 7vh;
+  width: 85vw;
+background-color: #24292e;
+overflow-x: auto;
+position: absolute;
+display: flex;
+left: 15%;
+}
+.tab-tab::-webkit-scrollbar {
+display: none;
+}
+.tabc{
+height:100px;
+width: 300px;
+background-color: #24292e;
+
+}
+
+.tt{
+  
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.tabswift{
+  display: flex;
+    height: 75vh;
+    width: 90dvw;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.content{
+  padding-top: 50px;
+}
+.clk{
+  display: flex;
+  align-items: stretch;
+    flex-direction: column;
+
+}
+
+
+@media screen and (max-width: 768px) {
+.tab-tab {
+  left: 15%;
+ 
+}
+}
+
+.name{
+  color: white;
+}
+
+
+
+
+
+.containera{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+} 
+
+.bd{
+  
+    display: flex;
+    flex-direction: column-reverse;
+    /* width: 50%; */
+    flex-wrap: wrap;
+}
+.bd button{
+  background-color: #24292e;
+  color: white;
+  
+}
+.li button{
+  background-color: #24292e;
+  color: white;
+ 
+}
+.projectsg{
+  height: 75vh;
+  width: 80vw;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.containers{
+  height: 77vh;
+  width: 80vw;
+  overflow-x: auto;
+  display: flex;
+margin-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 20px;
+  text-align: center;
+}
+.skill {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.skill img {
+  width: 50px;
+  height: 50px;
+}
+.app-grid{
+  height: 77vh;
+  width: 85vw;
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+html {
+  /* Hide the default scrollbar for all browsers */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+/* Optional: You can add custom scrollbar styles for WebKit browsers */
+html::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar for WebKit (Chrome, Safari, etc.) */
+}
+.n{
+  color: #373a3e;
 }
