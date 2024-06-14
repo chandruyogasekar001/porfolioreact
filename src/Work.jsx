@@ -19,7 +19,7 @@ export default function Work(){
      
       <iframe 
         src="https://dark-matter-web-space.vercel.app/" 
-        style={{ width: '85vw', height: '70vh', border: 'none', marginTop: '10vh' }}
+        style={{ width: '85vw', height: '70vh', border: 'none', marginTop: '5vh' }}
         title="Dark Matter Web Space"
       ></iframe>
     </div>
