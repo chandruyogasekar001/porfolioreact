@@ -9,7 +9,7 @@ export default function File({setTab}){
 
             <title>Nitin Ranganath</title>
             
-            <div >
+             <div >
                 <div >
                     <div >
                         <header>
@@ -22,6 +22,7 @@ export default function File({setTab}){
                         </header>
                         <img src={profile} alt='profile' style={{width:'200px', height:'200px'}}></img>
                         <div className="bd">
+                        
                             <nav>
                                 <button onClick={()=>setTab('Project')}>View Work</button>
                                 <button onClick={()=>setTab('Email')}>Contact Me</button>
@@ -34,7 +35,7 @@ export default function File({setTab}){
                                 <button onClick={()=>setTab('GitHub')}>github</button>
                                 <button onClick={()=>setTab('Blog')}>blog </button>
                             </div>
-                            <p onClick={()=>setTab('Work')} style={{color:"yellowgreen"}}>Open project wokspace</p>
+                           <button class="work" onClick={()=>setTab('Work')} style={{color:"#abff00"}}>  Open project wokspace  </button>
                            
                         </div>
                        
