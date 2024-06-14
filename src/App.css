@@ -282,14 +282,13 @@ margin-top: 50px;
   flex-direction: column;
 }
 html {
-  /* Hide the default scrollbar for all browsers */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
 }
 
-/* Optional: You can add custom scrollbar styles for WebKit browsers */
 html::-webkit-scrollbar {
-  display: none; /* Hide the scrollbar for WebKit (Chrome, Safari, etc.) */
+  display: none; 
 }
 .n{
   color: #373a3e;
