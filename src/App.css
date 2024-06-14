@@ -222,9 +222,10 @@ background-color: #24292e;
 .bd{
   
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     /* width: 50%; */
     flex-wrap: wrap;
+    align-content: center;
 }
 .bd button{
   background-color: #24292e;
@@ -292,4 +293,13 @@ html::-webkit-scrollbar {
 }
 .n{
   color: #373a3e;
+}
+.work{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+iframe::-webkit-scrollbar { 
+  display: none;
 }
