@@ -12,7 +12,7 @@ export default function Home({setTab }){
     
     return(
         
-     <html style={{ background: 'black'}}>
+      <html style={{ background: 'black'}}>
         <head></head>
         <body>
         <>
